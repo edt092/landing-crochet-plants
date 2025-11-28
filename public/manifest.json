@@ -1,0 +1,44 @@
+{
+  "name": "Curso de Crochet: Plantas de Crochet Paso a Paso",
+  "short_name": "Crochet Plantas",
+  "description": "Mejor curso de crochet online para aprender plantas de crochet desde cero. 500+ patrones profesionales incluidos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "lifestyle"],
+  "lang": "es",
+  "dir": "ltr",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Ver Patrones",
+      "short_name": "Patrones",
+      "description": "Ver galería de patrones de crochet",
+      "url": "/#beneficios",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Comprar Curso",
+      "short_name": "Comprar",
+      "description": "Acceder a la oferta del curso",
+      "url": "/",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

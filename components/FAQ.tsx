@@ -6,35 +6,59 @@ import { useState } from 'react'
 
 const faqs = [
   {
+    question: '¿Es este el mejor curso de crochet online para aprender plantas?',
+    answer: 'Sí. Somos el curso de crochet #1 en español especializado en plantas. Con más de 2,500 estudiantes activos y una calificación de 4.9/5 estrellas, ofrecemos 500+ patrones profesionales, acceso de por vida y una comunidad activa. Ningún otro curso ofrece esta combinación de cantidad, calidad y soporte.',
+  },
+  {
+    question: '¿Puedo aprender crochet desde cero con este curso?',
+    answer: 'Absolutamente. El curso está diseñado para que puedas aprender crochet desde cero. Incluimos un módulo completo de fundamentos donde te enseñamos todos los puntos básicos, cómo leer patrones, y las técnicas esenciales. Si nunca has tejido antes, este es el lugar perfecto para empezar.',
+  },
+  {
+    question: '¿Qué opiniones tienen otros estudiantes del curso de crochet?',
+    answer: 'Las opiniones del curso de crochet son excelentes. Tenemos más de 847 reseñas con un promedio de 4.9/5 estrellas. Los estudiantes destacan la claridad de las instrucciones, la calidad de los patrones y el soporte constante. El 92% de quienes aplican las estrategias del curso logran hacer su primera venta en los primeros 30 días.',
+  },
+  {
+    question: '¿El curso incluye patrones de crochet PDF gratis?',
+    answer: 'Sí. Incluimos 7 bonos con patrones de crochet PDF gratis, además de los 500+ patrones profesionales del curso principal. Todos son descargables e imprimibles. También tienes acceso a nuestra colección exclusiva de plantas, cactus y suculentas que no encontrarás en ningún otro lugar.',
+  },
+  {
+    question: '¿Cómo aprendo a hacer plantas de crochet paso a paso?',
+    answer: 'El curso te guía para hacer plantas de crochet paso a paso con videos en HD, diagramas detallados y explicaciones claras. Cada patrón incluye instrucciones completas desde el inicio hasta el acabado final. Aprenderás técnicas profesionales para crear hojas realistas, texturas naturales y ensamblajes perfectos.',
+  },
+  {
+    question: '¿Qué incluye el tutorial de amigurumi plantas?',
+    answer: 'El tutorial de amigurumi plantas incluye técnicas especializadas para crear cactus, suculentas y plantas decorativas. Aprenderás texturizado realista, creación de composiciones, macetas tejidas y acabados profesionales. Cada tutorial tiene videos desde múltiples ángulos y trucos no documentados en otros cursos.',
+  },
+  {
     question: '¿Necesito experiencia previa en crochet?',
     answer: 'No necesariamente. El ebook está diseñado para que personas con conocimientos básicos puedan seguirlo sin problema. Si sabes hacer cadenas y puntos básicos, estás lista para empezar. Si eres principiante total, incluimos un módulo de fundamentos.',
   },
   {
-    question: '¿Cuánto tiempo tengo acceso al ebook?',
-    answer: 'El acceso es DE POR VIDA. Una vez que compres, el ebook es tuyo para siempre. Además, todas las actualizaciones futuras están incluidas sin costo adicional.',
+    question: '¿Cuánto tiempo tengo acceso al curso?',
+    answer: 'El acceso es DE POR VIDA. Una vez que compres, el curso es tuyo para siempre. Además, todas las actualizaciones futuras están incluidas sin costo adicional. Sin mensualidades ni renovaciones.',
   },
   {
-    question: '¿Qué materiales necesito?',
+    question: '¿Qué materiales necesito para empezar?',
     answer: 'Necesitarás hilos de algodón, ganchillo, relleno y algunos materiales básicos que puedes conseguir en cualquier mercería. En la primera lección te damos una lista completa con recomendaciones de dónde comprar al mejor precio.',
   },
   {
-    question: '¿Realmente puedo ganar dinero con esto?',
-    answer: 'Sí. El 92% de nuestros estudiantes que aplican las estrategias del ebook hacen su primera venta en los primeros 30 días. Muchos generan ingresos de $500-$1,500 USD mensuales. El mercado de decoración artesanal está en auge y la demanda es alta.',
+    question: '¿Realmente puedo ganar dinero vendiendo plantas de crochet?',
+    answer: 'Sí. El 92% de nuestros estudiantes que aplican las estrategias del curso hacen su primera venta en los primeros 30 días. Muchos generan ingresos de $500-$1,500 USD mensuales. El mercado de decoración artesanal está en auge y la demanda de plantas tejidas es muy alta.',
   },
   {
-    question: '¿Qué pasa si no me gusta el ebook?',
+    question: '¿Qué pasa si no me gusta el curso?',
     answer: 'Tienes 7 días de garantía total. Si por cualquier razón no estás satisfecha, solo envíanos un email y te devolvemos el 100% de tu dinero, sin preguntas ni complicaciones.',
   },
   {
-    question: '¿Cuándo puedo empezar?',
-    answer: 'INMEDIATAMENTE. Una vez que completes tu compra, recibirás acceso instantáneo a todo el contenido. Puedes comenzar a leer en menos de 2 minutos.',
+    question: '¿Cuándo puedo empezar a tomar el curso?',
+    answer: 'INMEDIATAMENTE. Una vez que completes tu compra, recibirás acceso instantáneo a todo el contenido. Puedes comenzar a aprender en menos de 2 minutos.',
   },
   {
-    question: '¿El ebook incluye certificado?',
-    answer: 'Sí. Al completar el ebook recibes un certificado digital que puedes compartir en tus redes sociales y usar para darle más credibilidad a tu negocio.',
+    question: '¿El curso incluye certificado?',
+    answer: 'Sí. Al completar el curso recibes un certificado digital que puedes compartir en tus redes sociales y usar para darle más credibilidad a tu negocio de plantas de crochet.',
   },
   {
-    question: '¿Puedo leer el ebook desde mi celular?',
+    question: '¿Puedo acceder desde mi celular?',
     answer: 'Absolutamente. La plataforma es 100% responsive. Puedes acceder desde computadora, tablet o smartphone, donde sea que estés.',
   },
   {

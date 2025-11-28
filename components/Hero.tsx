@@ -53,11 +53,11 @@ export default function Hero() {
               <span className="font-semibold text-sm">Ebook #1 en Español</span>
             </motion.div>
 
-            {/* Main Headline */}
+            {/* Main Headline - H1 Optimizado para SEO */}
             <h1 className="heading-xl text-gray-900 mb-6 text-balance">
-              Transforma Tu{' '}
+              Curso de Crochet: Aprende a Crear{' '}
               <span className="text-primary-600 relative">
-                Pasión por el Crochet
+                Plantas de Crochet
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
                   height="8"
@@ -72,7 +72,7 @@ export default function Hero() {
                   />
                 </svg>
               </span>{' '}
-              en un Negocio Rentable
+              Paso a Paso
             </h1>
 
             {/* Sub-headline */}
